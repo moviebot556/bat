@@ -1,0 +1,19 @@
+﻿# Executables and binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Match results and temporary files
+matches.txt
+matches_detailed.json
+*.tmp
+last_position.txt
+
+# IDE / OS files
+.vscode/
+.idea/
+.gemini/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+﻿*.exe
+*.tmp
+.git
+.gitignore
+.vscode
+.gemini
+last_position.txt
