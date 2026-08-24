@@ -10,7 +10,7 @@ COPY . .
 RUN go mod tidy
 
 # Compile statically linked single binary
-RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o btcscanner seq.go
+RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o btcscanner main.go
 
 # Runtime stage
 FROM alpine:latest
